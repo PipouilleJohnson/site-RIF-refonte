@@ -1,0 +1,56 @@
+body, html{
+    background-color: rgb(136, 136, 136);
+    margin: 0;
+    padding: 0;
+}
+
+.carroussel_header {
+    height: 845px;
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    background-color: black;
+    overflow: hidden;
+    
+}
+
+.slider{
+    width: calc(500px * 4);
+
+}
+
+.slide{
+    float: left;
+    margin: auto;
+}
+
+.bulles_defilement{
+    display: block;
+
+    padding: 0%;
+    top: 800px;
+    width: 7%;
+    margin: auto;
+    position: absolute;
+    z-index: 101;
+}
+
+.bulles_defilement ul{
+    padding: 0%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bulles_defilement img{
+    height: 12px;
+}
+
+.carroussel_header img{
+    width: 100%;
+    height: 845px;
+    object-fit: cover;
+    opacity: 0.25;
+    position: relative;    
+}
+

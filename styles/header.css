@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "workSansReg";
+    src: url(../Work_Sans/static/WorkSans-Regular.ttf);
+}
+
+header{
+    width: 100%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: absolute;
+    z-index: 100;
+}
+
+nav{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo_header img{
+    height: 50px;
+
+}
+
+.header_droite{
+
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boutons_header{
+    width: 85%;
+    justify-content: space-between;
+    
+}
+
+.boutons_header ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.boutons_header a{
+    text-decoration: none; 
+    color: rgb(255, 255, 255);
+    font-family: "workSansReg";
+    font-size: 16px;
+}
+
+.bouton_inscription a{
+    background-color: #1DB100;
+    padding: 10px;
+    text-decoration: none; 
+    color: white;
+    font-family: "workSansReg";
+    font-size: 16px;
+    text-decoration: none;
+}
+
