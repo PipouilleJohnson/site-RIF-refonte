@@ -1,21 +1,29 @@
-body, html{
+body{
     background-color: rgb(136, 136, 136);
     margin: 0;
     padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
 .carroussel_header {
+    top: 0;
     height: 845px;
     width: 100%;
     margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     position: absolute;
     background-color: black;
     overflow: hidden;
-    
 }
 
 .slider{
-    width: calc(500px * 4);
+    width: 100%;
 
 }
 
@@ -25,25 +33,30 @@ body, html{
 }
 
 .bulles_defilement{
-    display: block;
-
-    padding: 0%;
-    top: 800px;
-    width: 7%;
-    margin: auto;
     position: absolute;
+    left: 50%;
+    bottom: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 7%;
+    margin: auto auto;
     z-index: 101;
 }
 
 .bulles_defilement ul{
-    padding: 0%;
     list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    width: 100%;
     display: flex;
     justify-content: space-around;
 }
 
 .bulles_defilement img{
-    height: 12px;
+    height: 15px;
 }
 
 .carroussel_header img{

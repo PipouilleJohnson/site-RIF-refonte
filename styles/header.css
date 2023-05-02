@@ -4,10 +4,10 @@
 }
 
 header{
+    top: 0;
     width: 100%;
     margin: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 0;
     position: absolute;
     z-index: 100;
 }
@@ -55,6 +55,7 @@ nav{
 
 .bouton_inscription a{
     background-color: #1DB100;
+    border-radius: 2px;
     padding: 10px;
     text-decoration: none; 
     color: white;
@@ -63,3 +64,6 @@ nav{
     text-decoration: none;
 }
 
+.bouton_inscription a:hover{
+    background-color: #77a66e;
+}
