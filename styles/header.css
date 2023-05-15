@@ -1,15 +1,11 @@
-@font-face {
-    font-family: "workSansReg";
-    src: url(../Work_Sans/static/WorkSans-Regular.ttf);
-}
-
 header{
     top: 0;
     width: 100%;
     margin: auto;
     padding: 20px 0;
-    position: absolute;
-    z-index: 100;
+    position: fixed;
+    z-index: 200;
+    background: linear-gradient(black, rgba(0,0,0,0));
 }
 
 nav{
@@ -53,7 +49,7 @@ nav{
     font-size: 16px;
 }
 
-.bouton_inscription a{
+.bouton a{
     background-color: #1DB100;
     border-radius: 2px;
     padding: 10px;
@@ -64,6 +60,6 @@ nav{
     text-decoration: none;
 }
 
-.bouton_inscription a:hover{
+.bouton a:hover{
     background-color: #77a66e;
 }
