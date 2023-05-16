@@ -11,6 +11,8 @@ body{
     flex-direction: column;
     justify-content: center;
 
+    
+
 }
 
 p{
@@ -24,6 +26,7 @@ h1, h2, h3{
 
 h3{
     color: #1DB100;
+    text-transform: uppercase;
 }
 
 
@@ -186,3 +189,6 @@ h3{
     width: 100%;
 }
 
+.container-haut{
+    width: 100%;
+}
