@@ -10,9 +10,6 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-    
-
 }
 
 p{
@@ -29,13 +26,22 @@ h3{
     text-transform: uppercase;
 }
 
-
+.titre-page{
+    margin: 5% 25% 20% 20% ;
+    width: 60%;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    z-index: 200;
+}
 
 
 .bulles_defilement{
-    left: 50%;
+    left: 45%;
+    right: 45%;
     position: absolute;
-    bottom: 15%;
+    bottom: 30%;
     display: flex;
     justify-content: space-around;
     width: 10%;
@@ -53,33 +59,32 @@ h3{
 
 
 
-.carroussel_header {
+.carroussel-header{
     top: 0;
-    height: 845px;
+    height: 700px;
     width: 100%;
     margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
     background-color: black;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .slider{
-    width: 100%;
-    height: 1080px;
+    display: flex;
+    flex-direction: row;
+    width: 400%;
+    height: 700px;
     object-fit: cover;
-    opacity: 0.25;
-    position: relative;    
+    opacity: 0.25;   
 }
 
-.slide img{
+.slider img{
     width: 100%;
-    height: 1000px;
+    height: 700px;
+    object-fit: cover;
 }
-
-
-
 
 .bloc-deux{
     top: 50px;
@@ -89,6 +94,10 @@ h3{
     display: flex;
     flex-direction: column;
     z-index: 130;
+}
+
+.bloc-deux h3{
+    margin-bottom: 10%;
 }
 
 .bloc-deux h1{
@@ -371,7 +380,7 @@ h3{
     align-items: center;
 }
 .reseaux p{
-    margin: auto auto auto auto;
+    margin: auto 5% auto auto;
 }
 
 .reseaux img{
