@@ -63,3 +63,23 @@ nav{
 .bouton a:hover{
     background-color: #77a66e;
 }
+
+.menu-burger{
+    display: none;
+}
+
+.menu-burger img{
+    height: 40px;
+}
+
+@media screen and (max-width:1240px){
+
+    .header_droite{
+        display: none;
+    }
+
+    .menu-burger{
+        display: block;
+    }
+    
+}
