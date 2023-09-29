@@ -24,6 +24,7 @@
 }
 
 .boutons-centre{
+    margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -47,18 +48,20 @@
 .newsletter h3{
     margin-top: 0;
     color: rgba(255,255,255,0.2);
+    text-align: left;
 }
 .newsletter p{
     color: white;
     font-size: 38px;
     margin-bottom: 10%;
+    text-align: left;
 }
 
 #email{
     font-size: 16px;
     color: rgba(255,255,255,0.2);
-    width: 100%;
-    padding: 5% 0 5% 5%;
+    width: 90%;
+    padding: 5% 5%;
     background-color: rgba(0,0,0,0.4);
     border: none;
 }
@@ -106,6 +109,45 @@
 
     .container-footer{
         flex-direction: column;
+        width: 90%;
     }
     
+    .boutons-centre{
+        align-items: center;
+        margin: 5% 0;
+    }
+
+    .newsletter{
+        width: 80%;
+        align-items: center;
+    }
+
+    .newsletter h3{
+        text-align: center;
+    }
+
+    .newsletter p{
+        font-size: 20px;
+        text-align: center;
+        margin: 10px;
+    }
+
+    #email{
+        width: 100%;
+    }
+
+    .bas-footer{
+        flex-direction: column;
+    }
+
+    .reseaux{
+        margin-top: 10px;
+        width: 50%;
+        justify-content: left;
+    }
+
+    .reseaux p{
+        margin: 0 10px 0 0;
+    }
+
 }

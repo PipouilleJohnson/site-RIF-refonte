@@ -11,6 +11,7 @@ body{
     flex-direction: column;
     justify-content: center;
     font-family: "workSansReg";
+    overflow-x: hidden;
 }
 
 p{
@@ -258,6 +259,10 @@ h3{
     object-fit: cover;
 }
 
+
+
+
+
 .bloc-contact{
     margin: auto;
     display: flex;
@@ -279,7 +284,11 @@ h3{
     margin: auto auto 10% auto;
 }
 
-
+@media screen and (max-width:1240px) {
+    .bloc-contact{
+        width: 80%;
+    }
+}
 
 
 
