@@ -10,16 +10,13 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-family: "workSansReg";
 }
 
 p{
-    font-family: "workSansReg";
     font-size: 16px;
 }
 
-h1, h2, h3{
-    font-family: "workSansReg";
-} 
 
 h3{
     color: #1DB100;
