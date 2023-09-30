@@ -64,23 +64,26 @@ nav{
     background-color: #77a66e;
 }
 
-.menu-burger{
+#menu-burger{
     display: none;
+    cursor: pointer;
 }
 
-.menu-burger img{
+#menu-burger img{
     height: 40px;
 }
 
+
 #menu-deroulant{
-    display: flex;
+    margin: 0 auto;
+    display: none;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    top: 0;
+    position: relative;
+    top: 10px;
     text-align: center;
     background-color: rgb(255, 255, 255);
-    width: 100%;
+    width: 90%;
     height: 100%;
     z-index: 999;
 }
@@ -103,13 +106,30 @@ nav{
     list-style-type: none;
 }
 
+#menu-deroulant .bouton a{
+    background-color: #1DB100;
+    border-radius: 2px;
+    margin-bottom: 50px;
+    padding: 10px;
+    text-decoration: none; 
+    color: white;
+    font-family: "workSansReg";
+    font-size: 16px;
+    text-decoration: none;
+    border: none;
+}
+
+#menu-deroulant .bouton a:hover{
+    background-color: #77a66e;
+}
+
 @media screen and (max-width:1240px){
 
     .header_droite{
         display: none;
     }
 
-    .menu-burger{
+    #menu-burger{
         display: block;
     }
     
